@@ -131,8 +131,8 @@ public class MatisseActivity extends AppCompatActivity implements
         mButtonApply.setOnClickListener(this);
         mContainer = findViewById(R.id.container);
         mEmptyView = findViewById(R.id.empty_view);
-        mOriginalLayout = findViewById(R.id.originalLayout);
-        mOriginal = findViewById(R.id.original);
+        mOriginalLayout = (LinearLayout) findViewById(R.id.originalLayout);
+        mOriginal = (CheckRadioView) findViewById(R.id.original);
         mOriginalLayout.setOnClickListener(this);
 
         mSelectedCollection.onCreate(savedInstanceState);

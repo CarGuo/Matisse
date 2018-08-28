@@ -136,8 +136,8 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
         });
 
 
-        mOriginalLayout = findViewById(R.id.originalLayout);
-        mOriginal = findViewById(R.id.original);
+        mOriginalLayout = (LinearLayout) findViewById(R.id.originalLayout);
+        mOriginal = (CheckRadioView) findViewById(R.id.original);
         mOriginalLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

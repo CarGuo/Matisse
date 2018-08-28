@@ -22,7 +22,7 @@
     <attr name="album.thumbnail.placeholder" format="reference|color"/>
     <attr name="album.emptyView" format="reference"/>
     <attr name="album.emptyView.textColor" format="reference|color"/>
-    <attr name="listPopupWindowStyle" format="reference"/>
+    <attr name="listPopupWindowStyleZh" format="reference"/>
     <attr name="page.bg" format="reference|color"/>
     <attr name="bottomToolbar.bg" format="reference|color"/>
     <attr name="bottomToolbar.preview.textColor" format="reference|color"/>
